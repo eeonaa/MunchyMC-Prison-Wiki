@@ -1,0 +1,39 @@
+body {
+    background-color: var(--background);
+    background-image:
+        linear-gradient(rgba(255, 255, 255, .05) 2px, transparent 2px),
+        linear-gradient(90deg, rgba(255, 255, 255, .05) 2px, transparent 2px),
+        linear-gradient(rgba(255, 255, 255, .025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, .025) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+#main {
+    align-items: start;
+}
+
+#header {
+    height: 100px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.header-left,
+.header-mid,
+.header-right {
+    place-self: center;
+    vertical-align: middle;
+    text-align: center;
+    gap: 10%;
+}
+
+.button>span {
+    padding-right: 5px;
+}
+
+.header-left {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}

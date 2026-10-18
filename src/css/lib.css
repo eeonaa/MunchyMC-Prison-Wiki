@@ -7,6 +7,7 @@
     --accent: #9D9D9D;
     --accent-light: #C2C2C2;
     --text: #E0E0E0;
+    --text-inactive: rgba(224, 224, 224, .5);
 }
 
 @font-face {
@@ -131,5 +132,25 @@
 
 .button:hover {
     background-color: rgba(224, 224, 224, 0.2);
+    opacity: 1;
+}
+
+.active-button {
+    min-height: 20px;
+    min-width: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border-radius: 10px;
+    background-color: rgba(224, 244, 244, 0.2);
+    opacity: 0.7;
+
+    transition: all 0.3s;
+}
+
+.active-button:hover {
     opacity: 1;
 }

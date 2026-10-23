@@ -4,6 +4,7 @@
     --light-bg-1: #AFC8E1;
     --light-bg-2: #FFFFFF;
     --light-text: #212529;
+    --light-text-inactive: rgba(33, 37, 41, 0.7);
     --light-box-border-outer: rgba(255, 255, 255, 0.75);
     --light-box-border-inner: rgba(0, 0, 1, .2);
     --light-box-background: rgba(240, 242, 245, 0.256);
@@ -44,7 +45,6 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-break: loose;
-    line-height: 1.25rem;
 }
 
 .no-highlight {
@@ -131,34 +131,34 @@
     padding-left: 15px;
     padding-right: 15px;
 
-    border-radius: 10px;
-    background-color: rgba(224, 244, 244, 0.0);
-    opacity: 0.7;
+    color: var(--light-text-inactive);
 
     transition: all 0.3s;
 }
 
 .button:hover {
-    background-color: rgba(224, 224, 224, 0.2);
-    opacity: 1;
+    color: var(--light-text);
 }
 
 .active-button {
-    min-height: 20px;
-    min-width: 20px;
+    display: flex;
+    align-items: center;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 10px 20px;
+    margin: 10px;
 
-    border-radius: 10px;
-    background-color: rgba(224, 244, 244, 0.2);
-    opacity: 0.7;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.373);
 
-    transition: all 0.3s;
+    background: linear-gradient(187deg, #0F33D2, #03D8F7);
+    box-shadow: 0px 2px 6px rgba(0, 0, 1, .2), inset 0px 0px 6px 3px rgba(0, 200, 255, 1);
+    border-radius: 40px;
+
+    transition: all .2s cubic-bezier(.25, .45, .5, 1);
 }
 
 .active-button:hover {
-    opacity: 1;
+    transform: scale(1.05);
 }

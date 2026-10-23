@@ -94,6 +94,7 @@ body {
     place-content: center;
     vertical-align: middle;
     text-align: center;
+    gap: 10px;
 
     background-color: var(--light-box-background);
     box-shadow: 0px 2px 6px var(--light-box-border-inner), inset 0px 0px 6px 3px var(--light-box-border-outer);

@@ -239,6 +239,19 @@
     font-family: 'Minecraft bold';
 }
 
+.semi,
+.epic,
+.ultra,
+.extinct,
+.creature,
+.fishing,
+.vote,
+.leaderboard,
+.politics,
+.pet {
+    text-transform: capitalize !important;
+}
+
 .ultra_legend,
 .legendary,
 .fabled,

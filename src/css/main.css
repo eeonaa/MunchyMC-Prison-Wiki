@@ -155,14 +155,17 @@ body {
 
 .item {
     --preview-size: 75px;
-    --preview-3: calc(var(--preview-size) / 3);
+    --row-amount: 3;
     --gap: 10px;
-    --gap-3: calc(var(--gap) / 1.5);
-    --row-size: calc(var(--preview-3) - var(--gap-3));
+
+    --gap-amount: calc(var(--row-amount) / 2);
+    --gap-per: calc(var(--gap) / var(--gap-amount));
+    --row-per: calc(var(--preview-size) / var(--row-amount));
+    --row-gap: calc(var(--row-per) - var(--gap-per));
 
     display: grid;
     grid-template-columns: var(--preview-size) calc(100% - var(--preview-size));
-    grid-template-rows: var(--row-size) var(--row-size) var(--row-size);
+    grid-template-rows: var(--row-gap) var(--row-gap) var(--row-gap);
 
     max-width: 500px;
     padding: 10px 10px;

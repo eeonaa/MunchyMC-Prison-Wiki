@@ -19,6 +19,12 @@
         0px 4px 0px 4px #1e0f1e,
         4px 0px 0px 4px #1e0f1e,
         -4px 0px 0px 4px #1e0f1e;
+    --minecraft-preview-bg: rgba(255, 255, 255, 0.1);
+    --minecraft-preview-outline:
+        4px 0px 0px 0px rgba(255, 255, 255, 0.2),
+        -4px 0px 0px 0px rgba(255, 255, 255, 0.2),
+        0px 4px 0px 0px rgba(255, 255, 255, 0.2),
+        0px -4px 0px 0px rgba(255, 255, 255, 0.2);
 
     --semi: #5555ff;
     --epic: #aa00aa;

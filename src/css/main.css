@@ -154,21 +154,28 @@ body {
 }
 
 .item {
+    --preview-size: 75px;
+    --preview-3: calc(var(--preview-size) / 3);
+    --gap: 10px;
+    --gap-3: calc(var(--gap) / 1.5);
+    --row-size: calc(var(--preview-3) - var(--gap-3));
+
     display: grid;
-    grid-template-columns: 100px calc(100% - 100px);
-    grid-template-rows: 46px 46px;
-    gap: 8px;
+    grid-template-columns: var(--preview-size) calc(100% - var(--preview-size));
+    grid-template-rows: var(--row-size) var(--row-size) var(--row-size);
 
     max-width: 500px;
+    padding: 10px 10px;
+    gap: var(--gap);
 
-    padding: 5px 5px;
     background-color: var(--minecraft-bg);
     box-shadow: var(--minecraft-outline);
 }
 
 .preview {
-    background-color: black;
-    grid-row: span 2 / span 2;
+    background-color: var(--minecraft-preview-bg);
+    box-shadow: var(--minecraft-preview-outline);
+    grid-row: span 3 / span 2;
 }
 
 .name {

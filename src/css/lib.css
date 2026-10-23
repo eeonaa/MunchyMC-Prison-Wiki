@@ -149,12 +149,23 @@
 }
 
 .no-textinput-default {
+    display: block;
+
+    font-family: var(--font-standard);
+    color: var(--text);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-break: loose;
+
     border-width: 0;
     border: none;
     outline: none;
+    margin: 0;
     padding: 0;
     padding-block: 0;
     padding-inline: 0;
+
+    background: none;
 }
 
 .pointer {

@@ -19,7 +19,7 @@ body {
 
     height: auto;
     width: calc(100dvw - 100px);
-    padding: 5px 20px;
+    padding: 10px 20px;
 
     display: grid;
     grid-template-columns: 25% 50% 25%;
@@ -79,14 +79,24 @@ body {
     height: auto;
 }
 
-.list {
-    font-family: 'Minecraft';
+#item-list::-webkit-scrollbar {
+    display: none;
+}
 
+#item-list {
+    overflow-y: scroll;
+    pointer-events: all;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.list {
     height: auto;
     padding: 20px 20px;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
 
     background-color: var(--light-box-background);
@@ -99,10 +109,12 @@ body {
     font-weight: bold;
     font-size: 3rem;
     color: var(--semi);
+    text-shadow: 3px 3px var(--light-text-inactive);
+    margin-top: 25px;
 }
 
 .label:nth-child(1) {
-    margin-top: 100px;
+    margin-top: 125px;
 }
 
 .item {
@@ -111,7 +123,7 @@ body {
     grid-template-rows: 46px 46px;
     gap: 8px;
 
-    max-width: 400px;
+    max-width: 500px;
 
     padding: 5px 5px;
     background-color: var(--minecraft-bg);

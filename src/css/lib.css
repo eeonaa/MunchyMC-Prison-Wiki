@@ -55,6 +55,11 @@
 }
 
 @font-face {
+    font-family: 'Minecraft Bold';
+    src: url(/fonts/MinecraftBold.otf);
+}
+
+@font-face {
     font-family: 'Material Symbols Outlined';
     font-style: normal;
     font-weight: 400;
@@ -203,6 +208,39 @@
 
 /* RARITIES */
 
+.semi,
+.epic,
+.vote {
+    font-family: 'Minecraft';
+}
+
+.ultra,
+.ultra_legend,
+.legendary,
+.fabled,
+.mythical,
+.extinct,
+.creature,
+.fishing,
+.leaderboard,
+.politics,
+.pet {
+    font-family: 'Minecraft bold';
+}
+
+.ultra_legend,
+.legendary,
+.fabled,
+.mythical {
+    text-transform: uppercase !important;
+}
+
+.fabled,
+.mythical,
+.extinct {
+    font-style: italic !important;
+}
+
 .semi {
     color: var(--semi) !important;
 }
@@ -212,50 +250,35 @@
 }
 
 .ultra {
-    color: var(--epic) !important;
-    font-weight: bolder !important;
+    color: var(--ultra) !important;
 }
 
 .ultra_legend {
-    color: var(--epic) !important;
-    text-transform: uppercase !important;
-    font-weight: bolder !important;
+    color: var(--ultra_legend) !important;
 }
 
 .legendary {
     color: var(--legendary) !important;
-    text-transform: uppercase !important;
-    font-weight: bolder !important;
 }
 
 .fabled {
-    color: var(--legendary) !important;
-    text-transform: uppercase !important;
-    font-weight: bolder !important;
-    font-style: italic !important;
+    color: var(--fabled) !important;
 }
 
 .mythical {
     color: var(--mythical) !important;
-    text-transform: uppercase !important;
-    font-weight: bolder !important;
-    font-style: italic !important;
 }
 
 .extinct {
-    color: var(--mythical) !important;
-    font-weight: bolder !important;
-    font-style: italic !important;
+    color: var(--extinct) !important;
 }
 
 .creature {
     color: var(--creature) !important;
-    font-weight: bolder !important;
 }
 
 .fishing {
     color: var(--fishing) !important;
-    font-weight: bolder !important;
 }
 
 .vote {
@@ -264,17 +287,14 @@
 
 .leaderboard {
     color: var(--leaderboard) !important;
-    font-weight: bolder !important;
 }
 
 .politics {
     color: var(--politics) !important;
-    font-weight: bolder !important;
 }
 
 .pet {
     color: var(--politics) !important;
-    font-weight: bolder !important;
 }
 
 /* LOCATIONS */

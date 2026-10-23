@@ -8,11 +8,50 @@
     --light-box-border-outer: rgba(255, 255, 255, 0.75);
     --light-box-border-inner: rgba(0, 0, 1, .2);
     --light-box-background: rgba(240, 242, 245, 0.256);
+
+    --minecraft-bg: #1e0f1e;
+    --minecraft-outline:
+        4px 0px 0px 0px #2C0A5F,
+        -4px 0px 0px 0px #2C0A5F,
+        0px 4px 0px 0px #2C0A5F,
+        0px -4px 0px 0px #2C0A5F,
+        0px -4px 0px 4px #1e0f1e,
+        0px 4px 0px 4px #1e0f1e,
+        4px 0px 0px 4px #1e0f1e,
+        -4px 0px 0px 4px #1e0f1e;
+
+    --semi: #5555ff;
+    --epic: #aa00aa;
+    --ultra: #aa0000;
+    --ultra_legend: #aa0000;
+    --legendary: #ffff55;
+    --fabled: #53f853;
+    --mythical: #ff55ff;
+    --extinct: #FCFCFC;
+    --creature: #00aaaa;
+    --fishing: #54fcfc;
+    --vote: #54fc54;
+    --leaderboard: #ffaa00;
+    --politics: #E6FFFF;
+    --pet: #5454FC;
+
+    --cartoon: #00aa00;
+    --spongebob: #ccffff;
+    --adventure_time: #ff9933;
+    --avatar_earth: #54FC54;
+    --avatar_water: #6C9CE8;
+    --avatar_fire: #A80000;
+    --avatar_air: #FCFCFC;
 }
 
 @font-face {
     font-family: 'Console Sans';
     src: url(/fonts/ConsoleSans.ttf);
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(/fonts/MinecraftRegular.otf);
 }
 
 @font-face {
@@ -160,4 +199,110 @@
 
 .active-button:hover {
     transform: scale(1.05);
+}
+
+/* RARITIES */
+
+.semi {
+    color: var(--semi) !important;
+}
+
+.epic {
+    color: var(--epic) !important;
+}
+
+.ultra {
+    color: var(--epic) !important;
+    font-weight: bolder !important;
+}
+
+.ultra_legend {
+    color: var(--epic) !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+}
+
+.legendary {
+    color: var(--legendary) !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+}
+
+.fabled {
+    color: var(--legendary) !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+    font-style: italic !important;
+}
+
+.mythical {
+    color: var(--mythical) !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+    font-style: italic !important;
+}
+
+.extinct {
+    color: var(--mythical) !important;
+    font-weight: bolder !important;
+    font-style: italic !important;
+}
+
+.creature {
+    color: var(--creature) !important;
+    font-weight: bolder !important;
+}
+
+.fishing {
+    color: var(--fishing) !important;
+    font-weight: bolder !important;
+}
+
+.vote {
+    color: var(--vote) !important;
+}
+
+.leaderboard {
+    color: var(--leaderboard) !important;
+    font-weight: bolder !important;
+}
+
+.politics {
+    color: var(--politics) !important;
+    font-weight: bolder !important;
+}
+
+.pet {
+    color: var(--politics) !important;
+    font-weight: bolder !important;
+}
+
+/* LOCATIONS */
+
+.cartoon {
+    color: var(--cartoon) !important;
+}
+
+.spongebob {
+    color: var(--spongebob) !important;
+}
+
+.adventure_time {
+    color: var(--adventure_time) !important;
+}
+
+.avatar_earth {
+    color: var(--avatar_earth) !important;
+}
+
+.avatar_water {
+    color: var(--avatar_water) !important;
+}
+
+.avatar_fire {
+    color: var(--avatar_fire) !important;
+}
+
+.avatar_air {
+    color: var(--avatar_air) !important;
 }

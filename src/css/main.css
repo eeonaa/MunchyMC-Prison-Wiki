@@ -1,54 +1,53 @@
 /* HTML, BODY and other large selectors */
 
 body {
-    background-color: var(--background);
-    background-image:
-        linear-gradient(rgba(255, 255, 255, .05) 2px, transparent 2px),
-        linear-gradient(90deg, rgba(255, 255, 255, .05) 2px, transparent 2px),
-        linear-gradient(rgba(255, 255, 255, .025) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, .025) 1px, transparent 1px);
-    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    background-image: url('/imgs/grid.png'), linear-gradient(180deg, var(--light-bg-1) -26.81%, var(--light-bg-2) 100%);
+    background-attachment: fixed;
+    color: var(--light-text);
+    pointer-events: none;
 }
 
 #main {
     flex-direction: column;
-    align-items: start;
 }
 
 /* Header */
 
 #header {
-    height: 100px;
-    width: 100dvw;
+    position: absolute;
+    top: 20px;
+    height: 50px;
+    width: calc(100dvw - 100px);
     display: grid;
     grid-template-columns: 25% 50% 25%;
+    background-color: var(--light-box-background);
+    box-shadow: 0px 2px 6px var(--light-box-border-inner), inset 0px 0px 6px 3px var(--light-box-border-outer);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-weight: bold;
+    z-index: 10;
 }
 
-.header-left,
-.header-mid,
 .header-right {
-    place-self: center;
-    vertical-align: middle;
+    justify-content: end;
+}
+
+.header-mid {
+    gap: 10px;
+}
+
+.header-left {
+    font-size: 1.5rem;
+    justify-content: start;
     text-align: center;
-    gap: 10%;
 }
 
 .button>span {
     padding-right: 5px;
 }
 
-.header-left {
-    font-weight: bolder;
-    font-size: 1.5rem;
-}
-
 /* Main Content  */
-
-#content {
-    height: calc(100dvh - 150px);
-    width: 100dvw;
-}
 
 #home {
     flex-direction: column;
@@ -63,11 +62,20 @@ body {
 /* Footer */
 
 #footer {
-    height: 100px;
-    width: 100dvw;
+    position: absolute;
+    bottom: 20px;
+    height: 50px;
+    width: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     place-content: center;
     vertical-align: middle;
     text-align: center;
+    background-color: var(--light-box-background);
+    box-shadow: 0px 2px 6px var(--light-box-border-inner), inset 0px 0px 6px 3px var(--light-box-border-outer);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-weight: bold;
+    z-index: 10;
 }

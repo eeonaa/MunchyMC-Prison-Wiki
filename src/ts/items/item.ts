@@ -39,15 +39,13 @@ export default class Item {
         this.tint = this.settings.tint
         this.hints = this.settings.hints
         this.tags = this.settings.tags
+
+        this.addToList(this.rarity)
     }
 
     public getItemListComponent() {
-        const holder = document.createElement('div')
-        holder.classList.add('list', this.rarity.split(' ').join('_'))
-
         const item = document.createElement('div')
         item.classList.add('item', 'pointer')
-        holder.appendChild(item)
 
         const preview = document.createElement('div')
         preview.classList.add('preview')
@@ -73,6 +71,10 @@ export default class Item {
         }
         item.append(rarity)
 
-        return holder
+        return item
+    }
+
+    public addToList(rarity: string) {
+        document.getElementsByClassName(`list ${rarity.split(' ').join('_')}`)[0].appendChild(this.getItemListComponent())
     }
 }

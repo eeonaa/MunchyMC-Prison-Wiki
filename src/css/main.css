@@ -140,7 +140,7 @@ body {
     padding: 20px 20px;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 20px;
 
     background-color: var(--light-box-background);
@@ -167,7 +167,8 @@ body {
     grid-template-columns: var(--preview-size) calc(100% - var(--preview-size));
     grid-template-rows: var(--row-gap) var(--row-gap) var(--row-gap);
 
-    max-width: 500px;
+    width: auto;
+    overflow: hidden;
     padding: 10px 10px;
     gap: var(--gap);
 
@@ -183,6 +184,8 @@ body {
 
 .name {
     font-size: 1.5rem;
+    text-fit: shrink;
+    white-space: nowrap;
 }
 
 .rarity {

@@ -46,299 +46,299 @@
 }
 
 /* Custom items */
-.rc-item.rc-munchy-pretty_patty {
+.rc-item.rc-munchy_pretty_patty {
     background-image: url(/icons/items/munchy/minecraft_cooked_beef_pretty_patty.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-pretty_patty.rc-enchanted {
+.rc-item.rc-munchy_pretty_patty.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_cooked_beef_pretty_patty.webp);
 }
 
-.rc-item.rc-munchy-gold_trophy {
+.rc-item.rc-munchy_gold_trophy {
     background-image: url(/icons/items/munchy/minecraft_bell_gold_trophy.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-gold_trophy.rc-enchanted {
+.rc-item.rc-munchy_gold_trophy.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_bell_gold_trophy.webp);
 }
 
-.rc-item.rc-munchy-flame_princess_staff {
+.rc-item.rc-munchy_flame_princess_staff {
     background-image: url(/icons/items/munchy/minecraft_blaze_rod_flame_princess_staff.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-flame_princess_staff.rc-enchanted {
+.rc-item.rc-munchy_flame_princess_staff.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_blaze_rod_flame_princess_staff.webp);
 }
 
-.rc-item.rc-munchy-clam_shell {
+.rc-item.rc-munchy_clam_shell {
     background-image: url(/icons/items/munchy/minecraft_blue_terracotta_clam_shell.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-clam_shell.rc-enchanted {
+.rc-item.rc-munchy_clam_shell.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_blue_terracotta_clam_shell.webp);
 }
 
-.rc-item.rc-munchy-enchiridion {
+.rc-item.rc-munchy_enchiridion {
     background-image: url(/icons/items/munchy/minecraft_book_enchiridion.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-enchiridion.rc-enchanted {
+.rc-item.rc-munchy_enchiridion.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_book_enchiridion.webp);
 }
 
-.rc-item.rc-munchy-sandys_acorn_bucket {
+.rc-item.rc-munchy_sandys_acorn_bucket {
     background-image: url(/icons/items/munchy/minecraft_bucket_sandys_acorn_bucket.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-sandys_acorn_bucket.rc-enchanted {
+.rc-item.rc-munchy_sandys_acorn_bucket.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_bucket_sandys_acorn_bucket.webp);
 }
 
-.rc-item.rc-munchy-ice_king_crown {
+.rc-item.rc-munchy_ice_king_crown {
     background-image: url(/icons/items/munchy/minecraft_carved_pumpkin_ice_king_crown.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-ice_king_crown.rc-enchanted {
+.rc-item.rc-munchy_ice_king_crown.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_carved_pumpkin_ice_king_crown.webp);
 }
 
-.rc-item.rc-munchy-king_neptunes_crown {
+.rc-item.rc-munchy_king_neptunes_crown {
     background-image: url(/icons/items/munchy/minecraft_carved_pumpkin_king_neptunes_crown.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-king_neptunes_crown.rc-enchanted {
+.rc-item.rc-munchy_king_neptunes_crown.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_carved_pumpkin_king_neptunes_crown.webp);
 }
 
-.rc-item.rc-munchy-lumpy_space_lumps {
+.rc-item.rc-munchy_lumpy_space_lumps {
     background-image: url(/icons/items/munchy/minecraft_chorus_fruit_lumpy_space_lumps.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-lumpy_space_lumps.rc-enchanted {
+.rc-item.rc-munchy_lumpy_space_lumps.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_chorus_fruit_lumpy_space_lumps.webp);
 }
 
-.rc-item.rc-munchy-bmo {
+.rc-item.rc-munchy_bmo {
     background-image: url(/icons/items/munchy/minecraft_command_block_bmo.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-bmo.rc-enchanted {
+.rc-item.rc-munchy_bmo.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_command_block_bmo.webp);
 }
 
-.rc-item.rc-munchy-scooby_snack {
+.rc-item.rc-munchy_scooby_snack {
     background-image: url(/icons/items/munchy/minecraft_cookie_scooby_snack.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-scooby_snack.rc-enchanted {
+.rc-item.rc-munchy_scooby_snack.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_cookie_scooby_snack.webp);
 }
 
-.rc-item.rc-munchy-youtube_playbutton {
+.rc-item.rc-munchy_youtube_playbutton {
     background-image: url(/icons/items/munchy/minecraft_diamond_block_youtube_playbutton.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-youtube_playbutton.rc-enchanted {
+.rc-item.rc-munchy_youtube_playbutton.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_diamond_block_youtube_playbutton.webp);
 }
 
-.rc-item.rc-munchy-bubble_blower {
+.rc-item.rc-munchy_bubble_blower {
     background-image: url(/icons/items/munchy/minecraft_diamond_hoe_bubble_blower.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-bubble_blower.rc-enchanted {
+.rc-item.rc-munchy_bubble_blower.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_diamond_hoe_bubble_blower.webp);
 }
 
-.rc-item.rc-munchy-wandas_wand {
+.rc-item.rc-munchy_wandas_wand {
     background-image: url(/icons/items/munchy/minecraft_end_rod_wandas_wand.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-wandas_wand.rc-enchanted {
+.rc-item.rc-munchy_wandas_wand.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_end_rod_wandas_wand.webp);
 }
 
-.rc-item.rc-munchy-jellyfish_tentacle {
+.rc-item.rc-munchy_jellyfish_tentacle {
     background-image: url(/icons/items/munchy/minecraft_fishing_rod_jellyfish_tentacle.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-jellyfish_tentacle.rc-enchanted {
+.rc-item.rc-munchy_jellyfish_tentacle.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_fishing_rod_jellyfish_tentacle.webp);
 }
 
-.rc-item.rc-munchy-ice_king_icicle {
+.rc-item.rc-munchy_ice_king_icicle {
     background-image: url(/icons/items/munchy/minecraft_fishing_rod_ice_king_icicle.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-ice_king_icicle.rc-enchanted {
+.rc-item.rc-munchy_ice_king_icicle.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_fishing_rod_ice_king_icicle.webp);
 }
 
-.rc-item.rc-munchy-squidwards_clarinet {
+.rc-item.rc-munchy_squidwards_clarinet {
     background-image: url(/icons/items/munchy/minecraft_goat_horn_squidwards_clarinet.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-squidwards_clarinet.rc-enchanted {
+.rc-item.rc-munchy_squidwards_clarinet.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_goat_horn_squidwards_clarinet.webp);
 }
 
-.rc-item.rc-munchy-spongebobs_spatula {
+.rc-item.rc-munchy_spongebobs_spatula {
     background-image: url(/icons/items/munchy/minecraft_golden_sword_spongebobs_spatula.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-spongebobs_spatula.rc-enchanted {
+.rc-item.rc-munchy_spongebobs_spatula.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_golden_sword_spongebobs_spatula.webp);
 }
 
-.rc-item.rc-munchy-simpsons_donut {
+.rc-item.rc-munchy_simpsons_donut {
     background-image: url(/icons/items/munchy/minecraft_gunpowder_simpsons_donut.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-simpsons_donut.rc-enchanted {
+.rc-item.rc-munchy_simpsons_donut.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_gunpowder_simpsons_donut.webp);
 }
 
-.rc-item.rc-munchy-marcelines_bass_axe {
+.rc-item.rc-munchy_marcelines_bass_axe {
     background-image: url(/icons/items/munchy/minecraft_iron_axe_marcelines_bass_axe.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-marcelines_bass_axe.rc-enchanted {
+.rc-item.rc-munchy_marcelines_bass_axe.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_iron_axe_marcelines_bass_axe.webp);
 }
 
-.rc-item.rc-munchy-winner_ticket {
+.rc-item.rc-munchy_winner_ticket {
     background-image: url(/icons/items/munchy/minecraft_light_weighted_pressure_plate_winner_ticket.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-winner_ticket.rc-enchanted {
+.rc-item.rc-munchy_winner_ticket.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_light_weighted_pressure_plate_winner_ticket.webp);
 }
 
-.rc-item.rc-munchy-guardian_gumball {
+.rc-item.rc-munchy_guardian_gumball {
     background-image: url(/icons/items/munchy/minecraft_magenta_terracotta_guardian_gumball.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-guardian_gumball.rc-enchanted {
+.rc-item.rc-munchy_guardian_gumball.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_magenta_terracotta_guardian_gumball.webp);
 }
 
-.rc-item.rc-munchy-magic_conch {
+.rc-item.rc-munchy_magic_conch {
     background-image: url(/icons/items/munchy/minecraft_nautilus_shell_magic_conch.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-magic_conch.rc-enchanted {
+.rc-item.rc-munchy_magic_conch.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_nautilus_shell_magic_conch.webp);
 }
 
-.rc-item.rc-munchy-bubblegum {
+.rc-item.rc-munchy_bubblegum {
     background-image: url(/icons/items/munchy/minecraft_pink_wool_bubblegum.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-bubblegum.rc-enchanted {
+.rc-item.rc-munchy_bubblegum.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_pink_wool_bubblegum.webp);
 }
 
-.rc-item.rc-munchy-sea_twister_essence {
+.rc-item.rc-munchy_sea_twister_essence {
     background-image: url(/icons/items/munchy/minecraft_potion_sea_twister_essence.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-sea_twister_essence.rc-enchanted {
+.rc-item.rc-munchy_sea_twister_essence.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_potion_sea_twister_essence.webp);
 }
 
-.rc-item.rc-munchy-jellyfish_net {
+.rc-item.rc-munchy_jellyfish_net {
     background-image: url(/icons/items/munchy/minecraft_stone_axe_jellyfish_net.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-jellyfish_net.rc-enchanted {
+.rc-item.rc-munchy_jellyfish_net.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_stone_axe_jellyfish_net.webp);
 }
 
-.rc-item.rc-munchy-daffy_duck_beak {
+.rc-item.rc-munchy_daffy_duck_beak {
     background-image: url(/icons/items/munchy/minecraft_sunflower_daffy_duck_beak.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-daffy_duck_beak.rc-enchanted {
+.rc-item.rc-munchy_daffy_duck_beak.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_sunflower_daffy_duck_beak.webp);
 }
 
-.rc-item.rc-munchy-atlantean_amulet {
+.rc-item.rc-munchy_atlantean_amulet {
     background-image: url(/icons/items/munchy/minecraft_sunflower_atlantean_amulet.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-atlantean_amulet.rc-enchanted {
+.rc-item.rc-munchy_atlantean_amulet.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_sunflower_atlantean_amulet.webp);
 }
 
-.rc-item.rc-munchy-jellyfish_small {
+.rc-item.rc-munchy_jellyfish_small {
     background-image: url(/icons/items/munchy/minecraft_vine_jellyfish_small.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-jellyfish_small.rc-enchanted {
+.rc-item.rc-munchy_jellyfish_small.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_vine_jellyfish_small.webp);
 }
 
-.rc-item.rc-munchy-jellyfish_medium {
+.rc-item.rc-munchy_jellyfish_medium {
     background-image: url(/icons/items/munchy/minecraft_vine_jellyfish_medium.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-jellyfish_medium.rc-enchanted {
+.rc-item.rc-munchy_jellyfish_medium.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_vine_jellyfish_medium.webp);
 }
 
-.rc-item.rc-munchy-jellyfish_big {
+.rc-item.rc-munchy_jellyfish_big {
     background-image: url(/icons/items/munchy/minecraft_vine_jellyfish_big.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-jellyfish_big.rc-enchanted {
+.rc-item.rc-munchy_jellyfish_big.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_vine_jellyfish_big.webp);
 }
 
-.rc-item.rc-munchy-pokeball {
+.rc-item.rc-munchy_pokeball {
     background-image: url(/icons/items/munchy/minecraft_wind_charge_pokeball.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-pokeball.rc-enchanted {
+.rc-item.rc-munchy_pokeball.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_wind_charge_pokeball.webp);
 }
 
-.rc-item.rc-munchy-jonnys_plank {
+.rc-item.rc-munchy_jonnys_plank {
     background-image: url(/icons/items/munchy/minecraft_wooden_sword_jonnys_plank.webp);
     mask-image: none;
 }
 
-.rc-item.rc-munchy-jonnys_plank.rc-enchanted {
+.rc-item.rc-munchy_jonnys_plank.rc-enchanted {
     mask-image: url(/icons/items/munchy/minecraft_wooden_sword_jonnys_plank.webp);
 }

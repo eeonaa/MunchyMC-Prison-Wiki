@@ -6,7 +6,7 @@ class Main {
     private itemList: ItemList = new ItemList()
 
     constructor() {
-        const kelp = new Item({
+        new Item({
             name: 'diet dr kelp',
             rarity: 'semi',
             location: 'spongebob',
@@ -18,19 +18,7 @@ class Main {
             tags: ['lopping', 'farming']
         })
 
-        const kelp2 = new Item({
-            name: 'diet dr kelp',
-            rarity: 'semi',
-            location: 'spongebob',
-            map: '12',
-            item: 'minecraft_potion',
-            enchants: [''],
-            tint: '#339900',
-            hints: ['Boosts next 40 crops and 80 logs'],
-            tags: ['lopping', 'farming']
-        })
-
-        const homer = new Item({
+        new Item({
             name: 'homer gut',
             rarity: 'epic',
             location: 'cartoon',
@@ -42,7 +30,7 @@ class Main {
             tags: []
         })
 
-        const toph = new Item({
+        new Item({
             name: 'toph eyes',
             rarity: 'ultra',
             location: 'avatar earth',
@@ -54,7 +42,7 @@ class Main {
             tags: []
         })
 
-        const twister = new Item({
+        new Item({
             name: 'sea twister ephermeral essence',
             rarity: 'ultra legend',
             location: undefined,
@@ -66,7 +54,7 @@ class Main {
             tags: []
         })
 
-        const marcy = new Item({
+        new Item({
             name: "marceline's axe bass",
             rarity: 'legendary',
             location: 'adventure time',
@@ -78,7 +66,7 @@ class Main {
             tags: []
         })
 
-        const staff = new Item({
+        new Item({
             name: "flame princess' scorched staff",
             rarity: 'fabled',
             location: 'adventure time',
@@ -90,7 +78,7 @@ class Main {
             tags: []
         })
 
-        const bmo = new Item({
+        new Item({
             name: 'bmo',
             rarity: 'mythical',
             location: 'adventure time',
@@ -102,7 +90,7 @@ class Main {
             tags: []
         })
 
-        const pops = new Item({
+        new Item({
             name: 'pops top hat',
             rarity: 'extinct',
             location: undefined,
@@ -114,7 +102,7 @@ class Main {
             tags: []
         })
 
-        const bad = new Item({
+        new Item({
             name: 'badBoyHalo bobber',
             rarity: 'vote rare',
             location: undefined,
@@ -126,7 +114,7 @@ class Main {
             tags: []
         })
 
-        const wand = new Item({
+        new Item({
             name: "wanda's wand",
             rarity: 'creature',
             location: undefined,
@@ -138,7 +126,7 @@ class Main {
             tags: []
         })
 
-        const treasure = new Item({
+        new Item({
             name: "flying dutchman's treasure",
             rarity: 'fishing special',
             location: undefined,
@@ -150,7 +138,7 @@ class Main {
             tags: []
         })
 
-        const ticket = new Item({
+        new Item({
             name: "Winner's Ticket",
             rarity: 'leaderboard',
             location: undefined,
@@ -162,7 +150,7 @@ class Main {
             tags: []
         })
 
-        const jfk = new Item({
+        new Item({
             name: "Reverse JFK Shoes",
             rarity: 'politics special',
             location: undefined,
@@ -174,7 +162,7 @@ class Main {
             tags: []
         })
 
-        const legs = new Item({
+        new Item({
             name: "Cat Legs",
             rarity: 'pet special',
             location: undefined,

@@ -1,4 +1,3 @@
-import type Item from "./item"
 import { rarityList } from "./itemTypes"
 
 export default class ItemList {

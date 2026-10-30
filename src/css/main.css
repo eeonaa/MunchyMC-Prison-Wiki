@@ -189,9 +189,11 @@ body {
 }
 
 .rarity {
-    text-transform: uppercase;
     grid-column-start: 2;
     grid-row-start: 2;
+    text-transform: uppercase;
+    text-fit: shrink;
+    white-space: nowrap;
 }
 
 /* Footer */

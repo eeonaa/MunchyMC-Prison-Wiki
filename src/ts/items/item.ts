@@ -46,6 +46,7 @@ export default class Item {
     public getItemListComponent() {
         const item = document.createElement('div')
         item.classList.add('item', 'pointer')
+        item.addEventListener('click', () => { this.openItem() })
 
         const preview = document.createElement('div')
         preview.classList.add('preview')
@@ -76,5 +77,9 @@ export default class Item {
 
     public addToList(rarity: string) {
         document.getElementsByClassName(`list ${rarity.split(' ').join('_')}`)[0].appendChild(this.getItemListComponent())
+    }
+
+    public openItem() {
+        console.log(this)
     }
 }

@@ -35,11 +35,11 @@
     --mythical: #ff55ff;
     --extinct: #FCFCFC;
     --creature: #00aaaa;
-    --fishing: #54fcfc;
-    --vote: #54fc54;
+    --fishing_special: #54fcfc;
+    --vote_rare: #54fc54;
     --leaderboard: #ffaa00;
-    --politics: #E6FFFF;
-    --pet: #5454FC;
+    --politics_special: #E6FFFF;
+    --pet_special: #5454FC;
 
     --cartoon: #00aa00;
     --spongebob: #ccffff;
@@ -227,7 +227,7 @@
 
 .semi,
 .epic,
-.vote {
+.vote_rare {
     font-family: 'Minecraft';
 }
 
@@ -238,30 +238,30 @@
 .mythical,
 .extinct,
 .creature,
-.fishing,
+.fishing_special,
 .leaderboard,
-.politics,
-.pet {
+.politics_special,
+.pet_special {
     font-family: 'Minecraft bold';
 }
 
 .semi,
 .epic,
 .ultra,
-.extinct,
 .creature,
-.fishing,
-.vote,
+.fishing_special,
+.vote_rare,
 .leaderboard,
-.politics,
-.pet {
+.politics_special,
+.pet_special {
     text-transform: capitalize !important;
 }
 
 .ultra_legend,
 .legendary,
 .fabled,
-.mythical {
+.mythical,
+.extinct {
     text-transform: uppercase !important;
 }
 
@@ -307,24 +307,24 @@
     color: var(--creature) !important;
 }
 
-.fishing {
-    color: var(--fishing) !important;
+.fishing_special {
+    color: var(--fishing_special) !important;
 }
 
-.vote {
-    color: var(--vote) !important;
+.vote_rare {
+    color: var(--vote_rare) !important;
 }
 
 .leaderboard {
     color: var(--leaderboard) !important;
 }
 
-.politics {
-    color: var(--politics) !important;
+.politics_special {
+    color: var(--politics_special) !important;
 }
 
-.pet {
-    color: var(--politics) !important;
+.pet_special {
+    color: var(--pet_special) !important;
 }
 
 /* Locations */

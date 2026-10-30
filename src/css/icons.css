@@ -4,7 +4,7 @@
     height: 100% !important
 }
 
-/* Vanilla item - correct the enchanted */
+/* Vanilla items - correct the enchanted class */
 .rc-item.rc-minecraft_filled_map.rc-enchanted {
     mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/filled_map.webp);
 }
